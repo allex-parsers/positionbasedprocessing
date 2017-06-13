@@ -1,0 +1,22 @@
+{
+  "name": "allex_positionbasedprocessingparser",
+  "version": "1.0.0",
+  "description": "AllexJS mixin for position based processing of buffers/strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "allex-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.hers.rs:allex_parsers/positionbasedprocessing.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "position",
+    "based",
+    "processing",
+    "parser"
+  ],
+  "author": "HERS Belgrade",
+  "license": "ISC"
+}
