@@ -15,7 +15,7 @@ function createPositionBasedRecordProcessor (execlib, DoubleBufferWithCursor) {
     }
     this.isText = type==='text';
     if (this.isText) {
-      this.recordDelimiter = new Buffer('\n');
+      this.recordDelimiter = Buffer.from('\n');
     } else {
       if (!Buffer.isBuffer(delimiter)) {
         throw new lib.Error('NO_BUFFER_DELIMITER', 'PositionBasedRecordProcessor ctor must get a delimiter that is a Buffer');
