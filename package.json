@@ -1,6 +1,6 @@
 {
   "name": "allex_positionbasedprocessingparser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AllexJS mixin for position based processing of buffers/strings",
   "main": "index.js",
   "scripts": {

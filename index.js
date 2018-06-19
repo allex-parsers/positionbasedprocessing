@@ -70,7 +70,7 @@ function createPositionBasedRecordProcessor (execlib, DoubleBufferWithCursor) {
     align = fieldprocessor.align;
     item = inputbuffer.toString('utf8', range[0], range[1]).trim();
     if(!align && item.length!==rangelen){
-      throw new lib.Error('FIELD_WITHOUT_ALIGN_MUST_HAVE_FULL_LENGTH','Field that should have been '+rangelen+' long turned out to be '+item.length+' long');
+      throw new lib.Error('FIELD_WITHOUT_ALIGN_MUST_HAVE_FULL_LENGTH','Field '+fieldprocessorname+' that should have been '+rangelen+' long turned out to be '+item.length+' long');
     }
     resulthash[fieldprocessorname] = item;
   };
